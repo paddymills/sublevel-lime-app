@@ -1,0 +1,15 @@
+[package]
+name = "sublevel-lime-app"
+description = "sublevel-lime.xyz site app"
+version = "0.1.0"
+authors = ["paddymills <paddymills@pm.me>"]
+repository = "https://github.com/paddymills/sublevel-lime-app"
+license = "MIT"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+yew = "0.17"
+wasm-bindgen = "0.2.73"
